@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="p-8 bg-dark-1 text-white text-center">
+    <footer className="p-8 bg-blue-1 text-white text-center">
       A Pet Project Created with ❤ by{" "}
       <span className="font-bold hover:underline cursor-pointer">
         <Link
