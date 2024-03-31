@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import Footer from "@/components/Footer";
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {
   return (
@@ -13,7 +14,7 @@ const HomeLayout = ({ children }: { children: ReactNode }) => {
           <div className="w-full">{children}</div>
         </section>
       </div>
-      Footer
+      <Footer />
     </main>
   );
 };
